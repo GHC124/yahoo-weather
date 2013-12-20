@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yw_rlWidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/yw_height_percent_3"
+    android:background="@drawable/yw_shape" >
+
+    <ImageView
+        android:id="@+id/yw_ivWidget_Update"
+        android:layout_margin="5dp"
+        android:layout_width="@dimen/yw_width_percent_4"
+        android:layout_height="@dimen/yw_height_percent_7"
+        android:contentDescription="@string/yw_content_description" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true" >
+
+        <TextView
+            android:id="@+id/yw_tvWidget_Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99FFFFFF"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/yw_tvWidget_Temp"
+            android:text="@string/yw_display_deg"
+            android:textColor="#99FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/yw_width_percent_1"
+            android:layout_toRightOf="@id/yw_tvWidget_Temp"
+            android:text="@string/yw_display_c"
+            android:textColor="#99FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/yw_tvWidget_City"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+    </TextView>
+
+</RelativeLayout>

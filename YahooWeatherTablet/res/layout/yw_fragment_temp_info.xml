@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yw_llTempInfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/yw_ivTempInfo"
+            android:layout_width="@dimen/yw_width_percent_4"
+            android:layout_height="@dimen/yw_height_percent_7"
+            android:contentDescription="@string/yw_content_description" />
+
+        <TextView
+            android:id="@+id/yw_tvTempInfo_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/yw_ivTempInfo"
+            android:textColor="#99000000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            >
+            <ImageView android:id="@+id/yw_ivTempInfo_Hight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/yw_content_description"
+                android:src="@drawable/yw_temp_up" 
+                android:layout_marginTop="2dp"/>
+
+            <RelativeLayout
+                android:id="@+id/yw_rlTempInfo_Hight"
+                android:layout_toRightOf="@id/yw_ivTempInfo_Hight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/yw_tvTempInfo_TempHight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#99000000"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/yw_tvTempInfo_TempHight"
+                    android:text="@string/yw_display_deg"
+                    android:textColor="#99000000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ImageView 
+                android:id="@+id/yw_ivTempInfo_Low"
+                android:layout_toRightOf="@id/yw_rlTempInfo_Hight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/yw_width_percent_1"
+                android:contentDescription="@string/yw_content_description"
+                android:src="@drawable/yw_temp_down" 
+                android:layout_marginTop="2dp"/>
+
+            <RelativeLayout android:layout_toRightOf="@id/yw_ivTempInfo_Low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/yw_tvTempInfo_TempLow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#99000000"
+                    android:textSize="20sp"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/yw_tvTempInfo_TempLow"
+                    android:text="@string/yw_display_deg"
+                    android:textColor="#99000000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/yw_tvTempInfo_Temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#99000000"
+                android:textSize="70sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/yw_tvTempInfo_Temp"
+                android:text="@string/yw_display_deg"
+                android:textColor="#99000000"
+                android:textSize="60sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/yw_width_percent_2"
+                android:layout_marginTop="@dimen/yw_height_percent_3"
+                android:layout_toRightOf="@id/yw_tvTempInfo_Temp"
+                android:text="@string/yw_display_c"
+                android:textColor="#99000000"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) in landscape here.
+
+    -->
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+
+    <!-- WIDTH -->
+    <dimen name="yw_width_percent_1">10dp</dimen>
+    <dimen name="yw_width_percent_2">20dp</dimen>
+    <dimen name="yw_width_percent_3">31dp</dimen>
+    <dimen name="yw_width_percent_3p5">36dp</dimen>
+    <dimen name="yw_width_percent_3p6">37dp</dimen>
+    <dimen name="yw_width_percent_4">41dp</dimen>
+    <dimen name="yw_width_percent_5">51dp</dimen>
+    <dimen name="yw_width_percent_8">82dp</dimen>
+    <dimen name="yw_width_percent_10">102dp</dimen>
+    <dimen name="yw_width_percent_12">123dp</dimen>
+    <dimen name="yw_width_percent_16">164dp</dimen>
+    <dimen name="yw_width_percent_20">205dp</dimen>
+    <dimen name="yw_width_percent_20p2">207dp</dimen>
+    <dimen name="yw_width_percent_25">256dp</dimen>
+    <dimen name="yw_width_percent_27">276dp</dimen>
+    <dimen name="yw_width_percent_30">307dp</dimen>
+    <dimen name="yw_width_percent_31">317dp</dimen>
+    <dimen name="yw_width_percent_35">358dp</dimen>
+    <dimen name="yw_width_percent_41">420dp</dimen>
+	<dimen name="yw_width_percent_47">481dp</dimen>
+
+    <!-- HEIGHT -->
+    <dimen name="yw_height_percent_1">6dp</dimen>
+    <dimen name="yw_height_percent_3">17dp</dimen>
+    <dimen name="yw_height_percent_4">22dp</dimen>
+    <dimen name="yw_height_percent_5">28dp</dimen>
+    <dimen name="yw_height_percent_5p2">29dp</dimen>
+    <dimen name="yw_height_percent_7">39dp</dimen>
+    <dimen name="yw_height_percent_10">55dp</dimen>
+    <dimen name="yw_height_percent_11p3">62dp</dimen>
+    <dimen name="yw_height_percent_10p5">58dp</dimen>
+	<dimen name="yw_height_percent_13">72dp</dimen>
+	<dimen name="yw_height_percent_15">83dp</dimen>
+	<dimen name="yw_height_percent_20">110dp</dimen>
+	<dimen name="yw_height_percent_22">121dp</dimen>
+	
+</resources>

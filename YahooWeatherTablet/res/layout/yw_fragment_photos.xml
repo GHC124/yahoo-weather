@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yw_llPhotos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2000000"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yw_photos_title"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.yahooweather.view.HorizontalListView
+            android:id="@+id/yw_lvPhotos_Items"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/yw_height_percent_22" >
+        </com.yahooweather.view.HorizontalListView>
+
+        <ProgressBar
+            android:id="@+id/yw_pgPhotos_Loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</LinearLayout>

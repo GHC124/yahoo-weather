@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YahooWeather</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Mix -->
+    <string name="yw_content_description">yw</string>
+    <string name="yw_display_ok">OK</string>
+    <string name="yw_display_deg">°</string>
+    <string name="yw_display_c">c</string>
+    <string name="yw_display_na">N/A</string>
+    
+    <!-- Logo -->
+    <string name="yw_logo">WEATHER</string>
+
+    <!-- Location info -->
+    <string name="yw_location_save">Save</string>
+    <string name="yw_location_saved">Saved</string>
+    
+    <!-- Search -->
+    <string name="yw_search_hint">Enter city</string>
+    <string name="yw_search_btn">Search</string>
+    
+    <!-- Location -->
+    <string name="yw_my_location">My Locations</string>
+
+    <!-- Forecast -->
+    <string name="yw_forecast_title">Forecast</string>
+    <string name="yw_forecast_today">Today</string>
+    <string name="yw_forecast_tomorrow">Tomorrow</string>
+    <string name="yw_forecast_monday">Monday</string>
+    <string name="yw_forecast_tuesday">Tuesday</string>
+    <string name="yw_forecast_webnesday">Webnesday</string>
+    <string name="yw_forecast_thursday">Thursday</string>
+    <string name="yw_forecast_friday">Friday</string>
+    <string name="yw_forecast_saturday">Saturday</string>
+    <string name="yw_forecast_sunday">Sunday</string>
+    
+    <!-- Photos -->
+    <string name="yw_photos_title">Photo</string>
+    
+    <!-- Detail -->
+    <string name="yw_detail_title">Detail</string>
+    <string name="yw_detail_visibility">Visibility</string> 
+    <string name="yw_detail_humidity">Humidity</string>
+    
+    <!-- Sun and Moon -->
+    <string name="yw_sun_moon_title">Sun &amp; Moon</string>
+    
+    <!-- Win and Pressure -->
+    <string name="yw_wind_pressure_title">Wind &amp; Pressure</string>
+    <string name="yw_wind_wind">Wind</string>
+</resources>

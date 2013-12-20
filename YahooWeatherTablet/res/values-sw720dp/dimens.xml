@@ -1,0 +1,46 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+
+    <!-- WIDTH -->
+    <dimen name="yw_width_percent_1">15dp</dimen>
+    <dimen name="yw_width_percent_2">25dp</dimen>
+    <dimen name="yw_width_percent_3">35dp</dimen>
+    <dimen name="yw_width_percent_3p5">40dp</dimen>
+    <dimen name="yw_width_percent_3p6">42dp</dimen>
+    <dimen name="yw_width_percent_4">50dp</dimen>
+    <dimen name="yw_width_percent_5">70dp</dimen>
+    <dimen name="yw_width_percent_8">100dp</dimen>
+    <dimen name="yw_width_percent_10">128dp</dimen>
+    <dimen name="yw_width_percent_12">150dp</dimen>
+    <dimen name="yw_width_percent_16">200dp</dimen>
+    <dimen name="yw_width_percent_20">250dp</dimen>
+    <dimen name="yw_width_percent_20p2">260dp</dimen>
+    <dimen name="yw_width_percent_25">320dp</dimen>
+    <dimen name="yw_width_percent_27">350dp</dimen>
+    <dimen name="yw_width_percent_30">380dp</dimen>
+    <dimen name="yw_width_percent_31">400dp</dimen>
+    <dimen name="yw_width_percent_35">455dp</dimen>
+    <dimen name="yw_width_percent_41">525dp</dimen>
+	<dimen name="yw_width_percent_47">600dp</dimen>
+
+    <!-- HEIGHT -->
+    <dimen name="yw_height_percent_1">10dp</dimen>
+    <dimen name="yw_height_percent_3">25dp</dimen>
+    <dimen name="yw_height_percent_4">30dp</dimen>
+    <dimen name="yw_height_percent_5">35dp</dimen>
+    <dimen name="yw_height_percent_5p2">40dp</dimen>
+    <dimen name="yw_height_percent_7">50dp</dimen>
+    <dimen name="yw_height_percent_10">75dp</dimen>
+    <dimen name="yw_height_percent_11p3">85dp</dimen>
+    <dimen name="yw_height_percent_10p5">95dp</dimen>
+	<dimen name="yw_height_percent_13">100dp</dimen>
+	<dimen name="yw_height_percent_15">113dp</dimen>
+	<dimen name="yw_height_percent_20">150dp</dimen>
+	<dimen name="yw_height_percent_22">165dp</dimen>
+	
+</resources>
